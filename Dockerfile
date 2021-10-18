@@ -5,4 +5,4 @@ EXPOSE 8000
 
 # Maintainer 
 MAINTAINER "sulazhy@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./webapp/target/webapp.war /usr/local/tomcat/webapps
